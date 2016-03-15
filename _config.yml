@@ -1,28 +1,40 @@
-name: ovrCaffeinatd
 favicon: null
-layout_spectrum: 0.8419674166943878
-typography_spectrum: 0.6958424865733832
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: ovrCaffeinatd
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.3700322
+  brandStrength: 0.06995808612555265
+  lightness: 0.2293233
   brandColors:
     - '#71A7FE'
     - '#399AE7'
     - '#3B407C'
     - '#547AB1'
     - '#CEAFC0'
-  brandStrength: 0.06995808612555265
-  lightness: 0.3230337903369218
-  saturation: 0.2242692473810166
-  rhythmicContrast: 0.4682444352656603
-purpose: []
+  rhythmicContrast: 0.5741138
+typography_spectrum: 0.5128894
+layout_spectrum: 0.5730397
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
